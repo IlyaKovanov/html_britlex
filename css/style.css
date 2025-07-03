@@ -355,3 +355,44 @@ body {
     /* line-height: 27px; */
     color: #546269;
 }
+.contacts {
+    padding: 124px 0;
+}
+.contacts-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__img {
+    max-width: 477px;
+}
+.contacts-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    max-width: 776px;
+}
+.contacts-text p {
+    margin-bottom: 53px;
+}
+.contacts__title {
+    padding-top: 45px;
+    margin-bottom: 45px;
+}
+.subscribe {
+    display: flex;
+}
+.template__btn {
+}
+.subscribe__input {
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    margin-right: 12px;
+    min-width: 450px;
+    padding-left: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8F95A5;
+}
+.subscribe__btn {
+    padding: 23px 80px;
+}
