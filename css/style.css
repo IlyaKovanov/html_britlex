@@ -128,7 +128,7 @@ body {
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 18px;
+    gap: 15px;
 }
 .skills-grid__item {
     background-color: #F5F5F5;
@@ -136,7 +136,6 @@ body {
 }
 .item1 {
     padding: 33px 23px;
-    /* max-width: 435px; */
     grid-row-start: 1;
     grid-row-end: 3;
 }
@@ -144,7 +143,6 @@ body {
     grid-column-start: 2;
     grid-column-end: span 2;
     display: flex;
-    /* align-items: center; */
 }
 .item1 img {
     margin-bottom: 28px;
@@ -157,15 +155,17 @@ body {
     padding: 7px 0;
     margin-bottom: 16px;
 }
+.item4 img {
+    max-height: 255px;
+    width: auto;
+    margin-top: 38px;
+}
 .title__h3 {
     font-weight: 600;
     font-size: 30px;
-    /* line-height: 80px; */
     color: #263238;
 }
-
 .item1 .title__h3 {
-    padding-left: 16px;
     margin-bottom: 27px;
 }
 .item2 .title__h3 {
@@ -177,13 +177,11 @@ body {
     padding-left: 37px;
     margin-bottom: 9px;
 }
-.item4 img {
-    max-height: 255px;
-    width: auto;
-    margin-top: 18px;
-}
 .item4 .title__h3 {
     margin-bottom: 17px;
+}
+.grid-text p {
+    max-width: 370px;
 }
 .item1 .grid-text p {
     margin-bottom: 23px;
@@ -219,15 +217,14 @@ body {
     margin-bottom: 61px;
 }
 .item2 .grid-text {
-    padding-left: 35px;
-    margin-bottom: 35px;
+    padding-left: 38px;
+    /* margin-bottom: 35px; */
 }
 .item3 .grid-text {
-    padding-left: 35px;
+    padding-left: 39px;
 }
-.item4 .grid-text
-{
-    padding: 38px 0px 0 43px;
+.item4 .grid-text{
+    padding: 66px 0px 0 43px;
     margin-right: 109px;
 }
 .skills .template__btn {
